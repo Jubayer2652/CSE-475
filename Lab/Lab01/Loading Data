@@ -1,0 +1,6 @@
+print('Downloading dataset...')
+df = pd.read_csv(DATA_URL, header=None, names=COLUMN_NAMES)
+print('Loaded:', df.shape)
+     
+Downloading dataset...
+Loaded: (8124, 23)
