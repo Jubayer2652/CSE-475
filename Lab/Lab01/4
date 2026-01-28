@@ -1,4 +1,0 @@
-print('\n--- Basic info ---')
-print(df.head())
-print('\nValue counts for target:')
-print(df['class'].value_counts())
