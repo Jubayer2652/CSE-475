@@ -1,0 +1,3 @@
+print('\nMissing value counts (raw "?" entries):')
+missing_counts = (df == '?').sum()
+print(missing_counts[missing_counts > 0])
